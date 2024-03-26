@@ -12,24 +12,23 @@ header{
     left: 0;
 }
 
-.full-screen{
-    width: 5%;
+#full-screen{
     filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(253deg) brightness(116%) contrast(100%);
+    width: 30px;
+    padding: 5px 5px;
 }
 
-.vista{
+#vista{
     filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(253deg) brightness(116%) contrast(100%);
-    width: 3%;
-    margin-right: 5px;
+    width: 30px;
+    padding: 5px 5px;
 }
-
-
 
 main{
     background-color: black;
     height: 100vh;
     overflow: auto;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .container{
@@ -39,17 +38,9 @@ main{
 
 .col-header{
     margin: 5px;
-    padding: 3px;
     border-radius: 5px;
     color: white;
     background-color: rgb(92, 91, 91);
-    width:fit-content;
-}
-
-.col100{
-    height: 20px;
-    background-color: red;
-    border: 1px solid yellow;
 }
 
 .col50{
@@ -94,26 +85,21 @@ footer{
     right: 0;
     left: 0;
     bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
-.container-footer{
+/* .container-footer{
     width: 100vw;
     height: 60px;
-}
-
-.items-footer{
-
-
-}
+} */
 
 .item img{
     width: 30px;
 }
 
-.hover img{
+.hover-img{
     width: 30px;
     padding-top: 10px;
     margin: 0 20px;
@@ -130,7 +116,7 @@ footer{
 
 .ending-call{
     background-color: rgb(75, 75, 75);
-    padding: 34px 15px 30px 15px;
+    padding: 29px 15px 30px 15px;
     border-radius: 3px;
 }
 
@@ -189,6 +175,7 @@ footer{
 
 .hover:hover {
     background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 .rotate{
