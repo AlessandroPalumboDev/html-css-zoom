@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 20px;
+    background-color: rgb(78, 77, 77);
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
+}
+
+main{
+    background-color: black;
+    height: calc(100vh - 70px);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 75px);
+
+}
+
+.col100{
+
+}
+
+.col50{
+    width: 50%;
+}
+
+.col25{
+    width: 25%;
+}
+
+.col14{
+    margin: 4px 2px;
+    width: calc(100% / 7 - 4px);
+    height: 100px;
+    background-color: skyblue;
+}
+
+footer{
+    background-color: rgb(78, 77, 77);
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
+}
+
+
+
+/* CLASSI DI UTILITY */
+.d-flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
