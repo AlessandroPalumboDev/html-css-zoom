@@ -16,25 +16,33 @@ header{
 main{
     background-color: black;
     height: calc(100vh - 70px);
+    overflow: auto;
+    padding-top: 20px;
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    height: calc(100vh - 75px);
-
 }
 
 .col100{
-
+    height: 20px;
+    background-color: red;
+    border: 1px solid yellow;
 }
 
 .col50{
     width: 50%;
+    background-color: red;
+    border: 1px solid yellow;
+    height: 40px;
 }
 
 .col25{
     width: 25%;
+    background-color: yellow;
+    border: 1px solid red;
+    height: 40px;
 }
 
 .col14{
@@ -51,6 +59,8 @@ footer{
     z-index: 1;
     right: 0;
     left: 0;
+    bottom: 0;
+    padding-top: 5px;
 }
 
 
@@ -60,6 +70,30 @@ footer{
     display: flex;
 }
 
+.jc-center{
+    justify-content: center;
+}
+
+.jc-right{
+    justify-content: right;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
 .wrap{
     flex-wrap: wrap;
+}
+
+.txt-a-center{
+    text-align: center;
+}
+
+.txt-a-right{
+    text-align: right;
 }
