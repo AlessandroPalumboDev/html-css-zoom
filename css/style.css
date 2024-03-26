@@ -35,7 +35,7 @@ main{
     width: 50%;
     background-color: red;
     border: 1px solid yellow;
-    height: 40px;
+    margin: 0 5px;
 }
 
 .col25{
@@ -48,8 +48,10 @@ main{
 .col14{
     margin: 4px 2px;
     width: calc(100% / 7 - 4px);
-    height: 100px;
-    background-color: skyblue;
+}
+
+.col14 img{
+    width: 100%;
 }
 
 footer{
@@ -61,6 +63,16 @@ footer{
     left: 0;
     bottom: 0;
     padding-top: 5px;
+}
+
+.container-footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.items-footer{
+    padding-top: 8px;
 }
 
 
