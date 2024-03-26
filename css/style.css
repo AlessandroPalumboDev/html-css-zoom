@@ -5,24 +5,45 @@
 }
 
 header{
-    height: 20px;
-    background-color: rgb(78, 77, 77);
+    background-color: black;
     position: fixed;
     z-index: 1;
     right: 0;
     left: 0;
 }
 
+.full-screen{
+    width: 5%;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(253deg) brightness(116%) contrast(100%);
+}
+
+.vista{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(253deg) brightness(116%) contrast(100%);
+    width: 3%;
+    margin-right: 5px;
+}
+
+
+
 main{
     background-color: black;
     height: calc(100vh - 50px);
     overflow: auto;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.col-header{
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(92, 91, 91);
+    width:fit-content;
 }
 
 .col100{
@@ -36,6 +57,7 @@ main{
     background-color: red;
     border: 1px solid yellow;
     margin: 0 5px;
+    color: white;
 }
 
 .col25{
