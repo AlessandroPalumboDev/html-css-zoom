@@ -75,7 +75,6 @@ main{
 .etichetta img{
     width: 15px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(253deg) brightness(116%) contrast(100%);
-
 }
 
 footer{
@@ -85,15 +84,8 @@ footer{
     right: 0;
     left: 0;
     bottom: 0;
-    padding-top: 5px;
     padding-bottom: 5px;
-
 }
-
-/* .container-footer{
-    width: 100vw;
-    height: 60px;
-} */
 
 .item img{
     width: 30px;
@@ -101,14 +93,14 @@ footer{
 
 .hover-img{
     width: 30px;
-    padding-top: 10px;
+    padding-top: 5px;
     margin: 0 20px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(253deg) brightness(116%) contrast(100%);
 }
 
 #share{
     width: 30px;
-    padding-top: 15px;
+    padding-top: 5px;
     margin-right: 20px;
     margin-left: 20px;
     filter: brightness(0) saturate(100%) invert(76%) sepia(60%) saturate(4955%) hue-rotate(78deg) brightness(107%) contrast(89%);
@@ -116,7 +108,7 @@ footer{
 
 .ending-call{
     background-color: rgb(75, 75, 75);
-    padding: 29px 15px 30px 15px;
+    padding: 20px 15px 30px 15px;
     border-radius: 3px;
 }
 
